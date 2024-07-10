@@ -31,7 +31,15 @@ struct ContentView: View {
                 playSounds("shadowheart-ignis")
             }label:{
                 Image("Shadowheart")
-                    .imageScale(.large)
+                    .imageScale(.small)
+                    .foregroundStyle(.tint)
+            }
+            
+            Button {
+                playSounds("gale-stop-licking")
+            }label:{
+                Image("Gale")
+                    .imageScale(.small)
                     .foregroundStyle(.tint)
             }
         }

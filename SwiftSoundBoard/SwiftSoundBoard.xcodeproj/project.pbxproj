@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA18CEB92C3CBB5C007EA128 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = AA18CEB62C3CBB5C007EA128 /* Contents.json */; };
 		AA18CEBA2C3CBB5C007EA128 /* shadowheart-ignis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA18CEB72C3CBB5C007EA128 /* shadowheart-ignis.mp3 */; };
+		AA3474152C3F3B2200DD397B /* gale-stop-licking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3474132C3F3B2200DD397B /* gale-stop-licking.mp3 */; };
 		AAE52D882C3C9C1E0024F94C /* SwiftSoundBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE52D872C3C9C1E0024F94C /* SwiftSoundBoardApp.swift */; };
 		AAE52D8A2C3C9C1E0024F94C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE52D892C3C9C1E0024F94C /* ContentView.swift */; };
 		AAE52D8C2C3C9C1F0024F94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE52D8B2C3C9C1F0024F94C /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		AA18CEB62C3CBB5C007EA128 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		AA18CEB72C3CBB5C007EA128 /* shadowheart-ignis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shadowheart-ignis.mp3"; sourceTree = "<group>"; };
+		AA3474132C3F3B2200DD397B /* gale-stop-licking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gale-stop-licking.mp3"; sourceTree = "<group>"; };
 		AAE52D842C3C9C1E0024F94C /* SwiftSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE52D872C3C9C1E0024F94C /* SwiftSoundBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSoundBoardApp.swift; sourceTree = "<group>"; };
 		AAE52D892C3C9C1E0024F94C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		AA18CEBB2C3CBBA1007EA128 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				AA3474142C3F3B2200DD397B /* gale-stop-licking */,
 				AA18CEB82C3CBB5C007EA128 /* shadowheart-ignis.dataset */,
 			);
 			path = Sounds;
@@ -128,6 +131,14 @@
 			children = (
 			);
 			path = Componets;
+			sourceTree = "<group>";
+		};
+		AA3474142C3F3B2200DD397B /* gale-stop-licking */ = {
+			isa = PBXGroup;
+			children = (
+				AA3474132C3F3B2200DD397B /* gale-stop-licking.mp3 */,
+			);
+			path = "gale-stop-licking";
 			sourceTree = "<group>";
 		};
 		AAE52D7B2C3C9C1E0024F94C = {
@@ -296,6 +307,7 @@
 				AA18CEBA2C3CBB5C007EA128 /* shadowheart-ignis.mp3 in Resources */,
 				AAE52D8F2C3C9C1F0024F94C /* Preview Assets.xcassets in Resources */,
 				AAE52D8C2C3C9C1F0024F94C /* Assets.xcassets in Resources */,
+				AA3474152C3F3B2200DD397B /* gale-stop-licking.mp3 in Resources */,
 				AA18CEB92C3CBB5C007EA128 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
